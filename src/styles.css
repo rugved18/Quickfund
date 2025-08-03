@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+<<<<<<< HEAD
+=======
+:root {
+  --primary-gradient: linear-gradient(to right, #007bff, #00c875);
+  --primary-color: #0051ff;
+  --secondary-color: #02b46a;
+  --font-family: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+.qf-logo {
+  background: var(--primary-gradient);
+  color: white;
+  font-weight: 600;
+  border-radius: 30%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+>>>>>>> 2ca223d7 (Implemented Project Structure,Routing and navbar)
